@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Geri Sayım</title>
+    <style>
+        body{
+            margin: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: orange;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: bold;
+        }
+        #counter{
+            font-size: 60px;
+            font-weight: 900;
+        }
+        #counter span{
+            font-size: 20px;
+            margin-right: 13px;
+        }
+        #span1{
+            position: relative;
+            top: -40px;
+            left: 7px;
+        }
+        #span2{
+            position: relative;
+            top: -40px;
+            left: 25px;
+        }
+        #span3{
+            position: relative;
+            top: -40px;
+            left: 28px;
+        }
+        #span4{
+            position: relative;
+            top: -40px;
+            left: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Macbook'un Gelmesi İçin Kalan Süre</h1>
+        <div id="counter">
+            <div id="countercontent"></div>
+            <span id="span1">Gün</span>
+            <span id="span2">Saat</span>
+            <span id="span3">Dakika</span>
+            <span id="span4">Saniye</span>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
